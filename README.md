@@ -29,6 +29,20 @@ JavaScript (ES6+)
 Bootstrap 5.3.2 
 Fetch API 
 
+Project Structure
+
+nba-trade-api/
+├── src/main/java/com/trademachine/nba_trade_api/
+│   ├── entity/          # JPA entities (Player, Franchise)
+│   ├── repository/      # Data access layer
+│   ├── service/         # Business logic layer
+│   ├── controller/      # REST API endpoints
+│   └── model/           # DTOs (TradeRequest, TradeResult)
+├── src/main/resources/
+│   ├── static/          # Frontend files (HTML, CSS, JS)
+│   └── application.properties  # Database configuration
+└── pom.xml             # Maven dependencies
+
 Database Schema
 Teams Table: Stores franchise information and preference values
 Players Table: Contains player stats, attributes, and NBA image IDs
