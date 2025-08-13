@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lan="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Trade Machine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="header">
+            <div id="logo">
+                <img id="logo_img" width="80" height="80" src="https://i.pinimg.com/originals/67/7d/37/677d37de1ac51a14a85595ffed8cb409.png"></img>
+                <h1 id="nba" style="color:rgb(255, 255, 255);">NBA</h2>
+            </div>
+            <h1 id="trademachine" style="color:rgb(255, 255, 255);">Trade Machine</h2>
+        </div>
+
+        <div class="item" id="top">
+            <img id="img_2" width="95%" src="image.jpg"></img>    
+        </div>
+
+        <div class="item" id="teamInput">
+            <form id="form_1" action="/api/trade/calculate" method="POST" onsubmit="calculateTrade(event)">
+                <label for="teamOneInput">Team 1</label>
+                <select id="teamOneInput" name="team1">
+                    <option value="">Select Team</option>
+                </select>
+                <select id="teamTwoInput" name="team2">
+                    <option value="">Select Team</option>
+                </select>
+                <label for="teamTwoInput" id="label2">Team 2</label>
+                <button type="submit" id="calcTrade">Calculate Trade</button>
+            </form>
+        </div>
+       
+        <div class="item" id="seePlayersDiv">
+            <button onclick="viewPlayers()" id="seePlayers">View Players</button>
+            <button type="reset" id="reset">Reset</button>
+        </div>
+
+        <div id="invalidNameDiv">
+        </div>
+
+        <div class="item" id="results">
+            <div class="item" id="teamLeft"></div>
+            <div class="item" id="teamRight"></div>
+        </div>
+        
+        <div class="item" id="message">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

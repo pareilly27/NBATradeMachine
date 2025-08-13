@@ -1,0 +1,320 @@
+html, body {
+    height: auto;
+    background-color: #2a2626;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+
+.item {
+    min-width: 50px;
+    min-height: 0px;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+#header {
+    background-color: #2a2626;
+    display: flex;
+    background-color: #2a2626;
+    height: fit-content;
+    flex-direction: row;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-content: center;
+    min-height: 100px;
+    height: auto;
+}
+
+#top {
+    display: flex;
+    background-color: #2a2626;
+    height: fit-content;
+    flex-direction: row;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+#teamInput {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    background-color: #2a2626;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#seePlayersDiv {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: #2a2626;
+    justify-content: center;
+    align-items: center;
+}
+
+#results {
+    display: none;
+    flex-direction: row;
+    background-color: #ff5623;
+    min-height: 150px;
+    height: fit-content;
+    border-radius: 1% 1% 1% 1%;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2626;
+    height: 40px;
+    margin: 3px;
+}
+
+#message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a2626;
+    color: white;
+    height: 40px;
+    font-style: italic;
+}
+
+input {
+    background-color: #2a2626;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    width: 40%;
+    padding: 5px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_img {
+    margin-bottom: 20px;
+}
+
+#trademachine {
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #d1c9c9;
+}
+
+#nba {
+    position: absolute;
+    left: 45%;
+    top: 40px;
+    font-weight: 1000;
+    font-size: 60px;
+}
+
+#form_1 {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+#calcTrade {
+    background-color: #ffffff;
+    width: 15%;
+    height: 40px;
+    color: #ff5623;
+    width: 200px;
+}
+
+.player button {
+    border-radius: 15px;
+    color: red;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0;  /* Changed from margin: 0 3px; */
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.midTeams {
+    display: flex;
+    background-color: #2a2626;
+    height: fit-content;
+    flex-direction: row;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+#results img {
+    width: 30px;
+    height: 25px;
+}
+
+#teamLeft p {
+    color: #FFFFFF;
+}
+
+#teamRight p {
+    color: #FFFFFF;
+}
+
+
+
+#teamLeft h1, #teamLeft h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#teamRight h1, #teamRight h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#top img {
+    display: flex;
+    border-radius: 10% 10% 10% 10%;
+    margin-top: 20px;
+    width: 80%;
+}
+
+#results div {
+    padding: 10px;
+}
+
+#seePlayersDiv button {
+    background-color: #ffffff;
+    width: 15%;
+    height: 40px;
+    color: #ff5623;
+    width: 200px;
+}
+
+#form1 label {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    color: #ff5623;
+    background-color: #ffffff;
+    padding: 8px;
+}
+
+input[type="text"]:enabled {
+    background: #ffffff;
+}
+
+input[type="text"]:enabled {
+    background: #000000;
+}
+
+#invalidName {
+    display: none;
+    color: #ff5623;
+}
+
+p::first-line {
+    font-weight: lighter;
+}
+
+p::first-letter {
+    font-weight: lighter;
+}
+
+h1::first-line {
+    font-weight: 900;
+}
+
+h1::first-letter {
+    font-weight: 900;
+}
+
+select {
+    background-color: #2a2626;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    width: 40%;
+    padding: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+select option {
+    background-color: #2a2626;
+    color: white;
+    padding: 5px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #ff5623;
+}
+
+#form_1 label {
+    color: #ff5623;
+    background-color: #ffffff;
+    padding: 8px;
+    margin: 0 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.player {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 8px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.player:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.player-image {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 15%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.player-name {
+    flex-grow: 1;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.player-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.player button {
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    margin: 0;  /* Changed from margin: 0 3px; */
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+}

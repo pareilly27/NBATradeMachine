@@ -1,0 +1,13 @@
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/NbaTradeApiApplication.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/controller/FranchiseController.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/controller/PlayerController.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/controller/TradeController.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/entity/Franchise.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/entity/Player.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/model/TradeRequest.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/model/TradeResult.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/repository/FranchiseRepository.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/repository/PlayerRepository.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/service/FranchiseService.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/service/PlayerService.java
+/Users/patrickreilly/Desktop/nba-trade-api/src/main/java/com/trademachine/nba_trade_api/service/TradeService.java
